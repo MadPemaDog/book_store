@@ -1,0 +1,139 @@
+.navbar  {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+
+section{
+    height: 100vh;
+    padding-top: 100px;
+}
+main{
+    padding-top: 50px;
+}
+
+.home{
+    color: white;
+    font-weight: 10000;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 61px;
+    font-weight: bold;
+}
+
+.p{
+    padding-left: 10%;
+    font-size: 30px;
+}
+button{
+    height: 50px;
+    width: 160px;
+    position: relative;
+    left: 10%;
+    margin-right: 15px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: blue;
+}
+.po{
+    height: 180vh;
+    background-color: #e6e8eb;
+}
+/* ABout us section starts from here*/
+.split{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    height: 40%;
+    padding-bottom: 5%;
+}
+.left{
+    flex: 1;
+    float: left;
+}
+.right{
+    flex: 1;
+    float: right;
+}
+.image{
+    height: 75%;
+    width: 70%;
+    padding: 60px;
+    padding-left: 23%;
+}
+.about{
+    padding-top: 22%;
+}
+.des{
+    color: blue;
+}
+.mycontent{
+    padding-right: 35%;
+    font-size: 18px;
+}
+/* About us section ends */
+
+/*why chooose start from here */
+.jeep h1{
+    text-align: center;
+}
+.jeep .Discover{
+    font-size: 18px;
+    padding: 5px 150px 50px 150px;
+    text-align: center;
+}
+.why{
+    padding: 5px 150px 50px 150px;
+}
+h4{
+    color: blue;
+    height: 0px;
+    padding-bottom: 0px;
+    font-size: larger;
+}
+.ppp{
+    padding-top: 0px;
+    height: 10px;
+    font-size: xx-large;
+}
+.para{
+    padding-top: 10px;
+}
+
+/* selling */
+.best a{
+    float: right;
+}
+.container {
+    display: flex;
+    margin: 10px 150px 10px;
+ }	
+.column {
+    flex: 33.33%;
+    height: 350px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cccccc;
+    text-align: center;
+    margin: 15px;
+  }
