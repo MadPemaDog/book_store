@@ -104,7 +104,7 @@ button:hover{
 }
 .break{
     display: flex;
-    width: 35%;
+    width: 30%;
     flex-direction: row;
 }
 .why{
