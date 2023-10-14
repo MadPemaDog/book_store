@@ -102,8 +102,20 @@ button:hover{
     padding: 5px 150px 50px 150px;
     text-align: center;
 }
+.break{
+    display: flex;
+    width: 35%;
+    flex-direction: row;
+}
 .why{
-    padding: 5px 150px 50px 150px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.why .left{
+    padding-left: 75px;
+}
+.why .right{
+    padding-right: 75px;
 }
 h4{
     color: blue;
